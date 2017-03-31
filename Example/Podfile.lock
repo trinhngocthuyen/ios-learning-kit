@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (5.1.1)
+  - NTKit (0.1.0)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - Nimble (~> 5.1.1)
+  - NTKit (from `../`)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  NTKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  NTKit: e867df029c73419c8474ad49284ea76de18b6c98
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 57323b610133f77748343bb0a771a5584cd56b59
+
+COCOAPODS: 1.1.1
