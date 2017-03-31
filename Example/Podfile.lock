@@ -1,22 +1,76 @@
 PODS:
+  - Alamofire (4.4.0)
   - Nimble (5.1.1)
-  - NTKit (0.1.0)
+  - NTApiClient (0.1.0):
+    - Alamofire
+    - NTExtensions
+    - NTReactive
+    - SwiftyJSON
+  - NTExtensions (0.1.0)
+  - NTFunctional (0.1.0)
+  - NTReactive (0.1.0):
+    - ReactiveCocoa
+    - ReactiveSwift
+  - NTTesting (0.1.0)
+  - NTUILib (0.1.0)
   - Quick (1.0.0)
+  - ReactiveCocoa (5.0.1):
+    - ReactiveSwift (~> 1.1)
+  - ReactiveSwift (1.1.0):
+    - Result (~> 3.1)
+  - Realm (2.5.0):
+    - Realm/Headers (= 2.5.0)
+  - Realm/Headers (2.5.0)
+  - RealmSwift (2.5.0):
+    - Realm (= 2.5.0)
+  - Result (3.2.1)
+  - SnapKit (3.2.0)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Nimble (~> 5.1.1)
-  - NTKit (from `../`)
+  - NTApiClient (from `../`)
+  - NTExtensions (from `../`)
+  - NTFunctional (from `../`)
+  - NTReactive (from `../`)
+  - NTTesting (from `../`)
+  - NTUILib (from `../`)
   - Quick (~> 1.0.0)
+  - RealmSwift
+  - SnapKit
 
 EXTERNAL SOURCES:
-  NTKit:
+  NTApiClient:
+    :path: "../"
+  NTExtensions:
+    :path: "../"
+  NTFunctional:
+    :path: "../"
+  NTReactive:
+    :path: "../"
+  NTTesting:
+    :path: "../"
+  NTUILib:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
-  NTKit: e867df029c73419c8474ad49284ea76de18b6c98
+  NTApiClient: 3319798e614ce3090ec8af1fa64f0651897b768f
+  NTExtensions: 0b6820cb4e7133acce3a530e4250794076733f8c
+  NTFunctional: c3f8032ad767918ad63df2d51383d7c7d80a3a77
+  NTReactive: 15db83c805a1a27edd49830e730873b9ef4c9434
+  NTTesting: 4e79e0a7d0c03c3b53b96a6447501fd91fb80905
+  NTUILib: ac4e011de4e856a2317df407f1454cbabd94f2a5
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  ReactiveCocoa: f577006aa6c7b0b08020109ebaae3b77ada00adc
+  ReactiveSwift: 2f4e4a02e5a5c87ea63f5fe667163ce2a67cbb57
+  Realm: 62abce501668580092d2be9b6ba7324a3d5f906a
+  RealmSwift: 9f1a8f624f2f153410115c2cb7d486be9976565d
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 57323b610133f77748343bb0a771a5584cd56b59
+PODFILE CHECKSUM: f5926b8ebeb7a7b890642473d90ccee795373f06
 
 COCOAPODS: 1.1.1

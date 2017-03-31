@@ -1,12 +1,22 @@
+platform :ios, '9.0'
 use_frameworks!
 
-target 'NTKit_Example' do
-  pod 'NTKit', :path => '../'
+target 'HackerNews_Demo' do
+  # pod 'iOSLearningKit', :path => '../'
+  pod 'NTExtensions', 	:path => '../'
+  pod 'NTUILib',        :path => '../'
+  pod 'NTFunctional', 	:path => '../'
+  pod 'NTReactive',	 	:path => '../'
+  pod 'NTApiClient', 	:path => '../'
+  pod 'NTTesting', 		:path => '../'
 
-  target 'NTKit_Tests' do
+  pod 'SnapKit'
+  pod 'RealmSwift'
+
+  target 'iOSLearningKit_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
+  	pod 'Nimble', '~> 5.1.1'
   end
 end

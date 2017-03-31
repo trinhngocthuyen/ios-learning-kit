@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import NTKit
+//import iOSLearningKit
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

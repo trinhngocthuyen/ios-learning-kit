@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = 'NTKit'
+  s.name             = 'NTApiClient'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NTKit.'
+  s.summary          = 'A short description of NTReactive.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -13,9 +13,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'NTKit/Classes/**/*'
+  s.source_files = 'NTApiClient/Classes/**/*'
   
-  # # --- Subspecs --- #
-  # # TODO: Add subspecs. Sample here: https://github.com/facebook/facebook-ios-sdk/blob/master/Facebook-iOS-SDK.podspec
+  # --- Dependencies --- #
+  s.dependency 'Alamofire'
+  s.dependency 'SwiftyJSON'
+  
+  s.dependency 'NTReactive'
+  s.dependency 'NTExtensions'
   
 end

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C11CF2B1E8FFFBA0083C852 /* HNResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11CF2A1E8FFFBA0083C852 /* HNResource.swift */; };
+		0C11CF2D1E90032A0083C852 /* HNComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11CF2C1E90032A0083C852 /* HNComment.swift */; };
+		0C11CF2F1E9004800083C852 /* HNResourceFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11CF2E1E9004800083C852 /* HNResourceFetcher.swift */; };
+		0C11CF311E9006150083C852 /* HNApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11CF301E9006150083C852 /* HNApiEndPoint.swift */; };
+		0C11CF351E90B1EB0083C852 /* Object_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11CF341E90B1EB0083C852 /* Object_Extensions.swift */; };
+		0CDFD61D1E8F631800B72E30 /* HNApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD61C1E8F631800B72E30 /* HNApiClient.swift */; };
+		0CDFD6231E8F803600B72E30 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD6221E8F803600B72E30 /* HomeViewController.swift */; };
+		0CDFD6251E8F804000B72E30 /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD6241E8F804000B72E30 /* StoryDetailViewController.swift */; };
+		0CDFD6271E8F80C200B72E30 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD6261E8F80C200B72E30 /* HomeViewModel.swift */; };
+		0CDFD6291E8F80D800B72E30 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD6281E8F80D800B72E30 /* StoryDetailViewModel.swift */; };
+		0CDFD62B1E8F825E00B72E30 /* HNStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFD62A1E8F825E00B72E30 /* HNStory.swift */; };
+		2FB0369F7639B64C3ECB85A8 /* Pods_HackerNews_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8E56BC080A4E0683BA355E /* Pods_HackerNews_Demo.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A2DB714F9B351723D1AA58C6 /* Pods_NTKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F9527871A6B9FF3347FBA0 /* Pods_NTKit_Tests.framework */; };
-		C38C6A35C8BBB94E617CE2A0 /* Pods_NTKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031742BD01844915DA9C2EE5 /* Pods_NTKit_Example.framework */; };
+		A2DB714F9B351723D1AA58C6 /* Pods_iOSLearningKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F9527871A6B9FF3347FBA0 /* Pods_iOSLearningKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +32,43 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = NTKit;
+			remoteInfo = iOSLearningKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031742BD01844915DA9C2EE5 /* Pods_NTKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4004ADB212CE6A5FEA138556 /* Pods-NTKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTKit_Tests/Pods-NTKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41137214D43B6F8725EE282E /* Pods-NTKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTKit_Tests/Pods-NTKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CE86915E4A0D296B7A18C72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* NTKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031742BD01844915DA9C2EE5 /* Pods_iOSLearningKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLearningKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C11CF2A1E8FFFBA0083C852 /* HNResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNResource.swift; sourceTree = "<group>"; };
+		0C11CF2C1E90032A0083C852 /* HNComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNComment.swift; sourceTree = "<group>"; };
+		0C11CF2E1E9004800083C852 /* HNResourceFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNResourceFetcher.swift; sourceTree = "<group>"; };
+		0C11CF301E9006150083C852 /* HNApiEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNApiEndPoint.swift; sourceTree = "<group>"; };
+		0C11CF341E90B1EB0083C852 /* Object_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object_Extensions.swift; sourceTree = "<group>"; };
+		0CDFD6061E8E1FF100B72E30 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		0CDFD61C1E8F631800B72E30 /* HNApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNApiClient.swift; sourceTree = "<group>"; };
+		0CDFD6221E8F803600B72E30 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0CDFD6241E8F804000B72E30 /* StoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		0CDFD6261E8F80C200B72E30 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0CDFD6281E8F80D800B72E30 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
+		0CDFD62A1E8F825E00B72E30 /* HNStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNStory.swift; sourceTree = "<group>"; };
+		4004ADB212CE6A5FEA138556 /* Pods-iOSLearningKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLearningKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSLearningKit_Tests/Pods-iOSLearningKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41137214D43B6F8725EE282E /* Pods-iOSLearningKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLearningKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSLearningKit_Tests/Pods-iOSLearningKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE86915E4A0D296B7A18C72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58F1C33BD409859B6FED4508 /* Pods-HackerNews_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNews_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNews_Demo/Pods-HackerNews_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* HackerNews_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* NTKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* iOSLearningKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLearningKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6594C4DEE0EF4E17992C27A8 /* NTKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NTKit.podspec; path = ../NTKit.podspec; sourceTree = "<group>"; };
-		726223723B3EFF050E4AFDEB /* Pods-NTKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTKit_Example/Pods-NTKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A8E150670AA80D6BCB9744DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C4F9527871A6B9FF3347FBA0 /* Pods_NTKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NTKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DD0B97119F84D0CE2CDAB1 /* Pods-NTKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTKit_Example/Pods-NTKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6594C4DEE0EF4E17992C27A8 /* iOSLearningKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSLearningKit.podspec; path = ../iOSLearningKit.podspec; sourceTree = "<group>"; };
+		726223723B3EFF050E4AFDEB /* Pods-iOSLearningKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLearningKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSLearningKit_Example/Pods-iOSLearningKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E150670AA80D6BCB9744DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C4F9527871A6B9FF3347FBA0 /* Pods_iOSLearningKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLearningKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8E56BC080A4E0683BA355E /* Pods_HackerNews_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNews_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DD0B97119F84D0CE2CDAB1 /* Pods-iOSLearningKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLearningKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSLearningKit_Example/Pods-iOSLearningKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4A77D0A6F833FB274186BAB /* Pods-HackerNews_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNews_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNews_Demo/Pods-HackerNews_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38C6A35C8BBB94E617CE2A0 /* Pods_NTKit_Example.framework in Frameworks */,
+				2FB0369F7639B64C3ECB85A8 /* Pods_HackerNews_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +84,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DB714F9B351723D1AA58C6 /* Pods_NTKit_Tests.framework in Frameworks */,
+				A2DB714F9B351723D1AA58C6 /* Pods_iOSLearningKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C908F9D1E91446100F67ED2 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0C11CF341E90B1EB0083C852 /* Object_Extensions.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		0CDFD61B1E8F630C00B72E30 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFD61C1E8F631800B72E30 /* HNApiClient.swift */,
+				0CDFD62A1E8F825E00B72E30 /* HNStory.swift */,
+				0C11CF2A1E8FFFBA0083C852 /* HNResource.swift */,
+				0C11CF2C1E90032A0083C852 /* HNComment.swift */,
+				0C11CF2E1E9004800083C852 /* HNResourceFetcher.swift */,
+				0C11CF301E9006150083C852 /* HNApiEndPoint.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		0CDFD6201E8F802B00B72E30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFD6221E8F803600B72E30 /* HomeViewController.swift */,
+				0CDFD6261E8F80C200B72E30 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0CDFD6211E8F802B00B72E30 /* StoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFD6241E8F804000B72E30 /* StoryDetailViewController.swift */,
+				0CDFD6281E8F80D800B72E30 /* StoryDetailViewModel.swift */,
+			);
+			path = StoryDetail;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for NTKit */,
+				607FACD21AFB9204008FA782 /* Example for iOSLearningKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				A70FC7290896C422C908964A /* Pods */,
@@ -84,24 +145,27 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* NTKit_Example.app */,
-				607FACE51AFB9204008FA782 /* NTKit_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* HackerNews_Demo.app */,
+				607FACE51AFB9204008FA782 /* iOSLearningKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for NTKit */ = {
+		607FACD21AFB9204008FA782 /* Example for iOSLearningKit */ = {
 			isa = PBXGroup;
 			children = (
+				0CDFD61B1E8F630C00B72E30 /* ApiClient */,
+				0CDFD6201E8F802B00B72E30 /* Home */,
+				0CDFD6211E8F802B00B72E30 /* StoryDetail */,
+				0C908F9D1E91446100F67ED2 /* Misc */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				0CDFD6061E8E1FF100B72E30 /* BridgingHeader.h */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for NTKit";
-			path = NTKit;
+			name = "Example for iOSLearningKit";
+			path = iOSLearningKit;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -132,7 +196,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				6594C4DEE0EF4E17992C27A8 /* NTKit.podspec */,
+				6594C4DEE0EF4E17992C27A8 /* iOSLearningKit.podspec */,
 				4CE86915E4A0D296B7A18C72 /* README.md */,
 				A8E150670AA80D6BCB9744DF /* LICENSE */,
 			);
@@ -142,8 +206,9 @@
 		A1205F1BCF31C64307491A83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				031742BD01844915DA9C2EE5 /* Pods_NTKit_Example.framework */,
-				C4F9527871A6B9FF3347FBA0 /* Pods_NTKit_Tests.framework */,
+				031742BD01844915DA9C2EE5 /* Pods_iOSLearningKit_Example.framework */,
+				C4F9527871A6B9FF3347FBA0 /* Pods_iOSLearningKit_Tests.framework */,
+				CC8E56BC080A4E0683BA355E /* Pods_HackerNews_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +216,12 @@
 		A70FC7290896C422C908964A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				726223723B3EFF050E4AFDEB /* Pods-NTKit_Example.debug.xcconfig */,
-				D7DD0B97119F84D0CE2CDAB1 /* Pods-NTKit_Example.release.xcconfig */,
-				41137214D43B6F8725EE282E /* Pods-NTKit_Tests.debug.xcconfig */,
-				4004ADB212CE6A5FEA138556 /* Pods-NTKit_Tests.release.xcconfig */,
+				726223723B3EFF050E4AFDEB /* Pods-iOSLearningKit_Example.debug.xcconfig */,
+				D7DD0B97119F84D0CE2CDAB1 /* Pods-iOSLearningKit_Example.release.xcconfig */,
+				41137214D43B6F8725EE282E /* Pods-iOSLearningKit_Tests.debug.xcconfig */,
+				4004ADB212CE6A5FEA138556 /* Pods-iOSLearningKit_Tests.release.xcconfig */,
+				F4A77D0A6F833FB274186BAB /* Pods-HackerNews_Demo.debug.xcconfig */,
+				58F1C33BD409859B6FED4508 /* Pods-HackerNews_Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +229,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* NTKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* HackerNews_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NTKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HackerNews_Demo" */;
 			buildPhases = (
 				9F4C9F5905E85CC6535F0A32 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = NTKit_Example;
-			productName = NTKit;
-			productReference = 607FACD01AFB9204008FA782 /* NTKit_Example.app */;
+			name = HackerNews_Demo;
+			productName = iOSLearningKit;
+			productReference = 607FACD01AFB9204008FA782 /* HackerNews_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* NTKit_Tests */ = {
+		607FACE41AFB9204008FA782 /* iOSLearningKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NTKit_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOSLearningKit_Tests" */;
 			buildPhases = (
 				98AB188F48649F171305F45E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +265,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = NTKit_Tests;
+			name = iOSLearningKit_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* NTKit_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* iOSLearningKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,6 +282,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S35NJ68C7W;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -224,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NTKit" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "iOSLearningKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +305,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* NTKit_Example */,
-				607FACE41AFB9204008FA782 /* NTKit_Tests */,
+				607FACCF1AFB9204008FA782 /* HackerNews_Demo */,
+				607FACE41AFB9204008FA782 /* iOSLearningKit_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -276,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTKit_Example/Pods-NTKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerNews_Demo/Pods-HackerNews_Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		68CCF0717245F41E5C77C189 /* [CP] Embed Pods Frameworks */ = {
@@ -291,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTKit_Tests/Pods-NTKit_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSLearningKit_Tests/Pods-iOSLearningKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		98AB188F48649F171305F45E /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +403,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTKit_Example/Pods-NTKit_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerNews_Demo/Pods-HackerNews_Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC3ABAF863E56A1D14E8CF86 /* [CP] Copy Pods Resources */ = {
@@ -351,7 +418,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTKit_Tests/Pods-NTKit_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSLearningKit_Tests/Pods-iOSLearningKit_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -361,8 +428,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0C11CF2B1E8FFFBA0083C852 /* HNResource.swift in Sources */,
+				0CDFD6291E8F80D800B72E30 /* StoryDetailViewModel.swift in Sources */,
+				0C11CF2F1E9004800083C852 /* HNResourceFetcher.swift in Sources */,
+				0C11CF351E90B1EB0083C852 /* Object_Extensions.swift in Sources */,
+				0CDFD6271E8F80C200B72E30 /* HomeViewModel.swift in Sources */,
+				0CDFD6251E8F804000B72E30 /* StoryDetailViewController.swift in Sources */,
+				0C11CF311E9006150083C852 /* HNApiEndPoint.swift in Sources */,
+				0CDFD62B1E8F825E00B72E30 /* HNStory.swift in Sources */,
+				0C11CF2D1E90032A0083C852 /* HNComment.swift in Sources */,
+				0CDFD61D1E8F631800B72E30 /* HNApiClient.swift in Sources */,
+				0CDFD6231E8F803600B72E30 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,20 +456,12 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* NTKit_Example */;
+			target = 607FACCF1AFB9204008FA782 /* HackerNews_Demo */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -493,35 +562,41 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726223723B3EFF050E4AFDEB /* Pods-NTKit_Example.debug.xcconfig */;
+			baseConfigurationReference = F4A77D0A6F833FB274186BAB /* Pods-HackerNews_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NTKit/Info.plist;
+				DEVELOPMENT_TEAM = S35NJ68C7W;
+				INFOPLIST_FILE = iOSLearningKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/${PROJECT_NAME}/BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7DD0B97119F84D0CE2CDAB1 /* Pods-NTKit_Example.release.xcconfig */;
+			baseConfigurationReference = 58F1C33BD409859B6FED4508 /* Pods-HackerNews_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NTKit/Info.plist;
+				DEVELOPMENT_TEAM = S35NJ68C7W;
+				INFOPLIST_FILE = iOSLearningKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_DIR}/${PROJECT_NAME}/BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41137214D43B6F8725EE282E /* Pods-NTKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 41137214D43B6F8725EE282E /* Pods-iOSLearningKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,7 +616,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4004ADB212CE6A5FEA138556 /* Pods-NTKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 4004ADB212CE6A5FEA138556 /* Pods-iOSLearningKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -558,7 +633,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NTKit" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "iOSLearningKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -567,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NTKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HackerNews_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -576,7 +651,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NTKit_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOSLearningKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
