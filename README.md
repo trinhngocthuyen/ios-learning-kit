@@ -1,9 +1,6 @@
-# NTKit
+# iOSLearningKit
 
-[![CI Status](http://img.shields.io/travis/Thuyen Trinh/NTKit.svg?style=flat)](https://travis-ci.org/Thuyen Trinh/NTKit)
-[![Version](https://img.shields.io/cocoapods/v/NTKit.svg?style=flat)](http://cocoapods.org/pods/NTKit)
-[![License](https://img.shields.io/cocoapods/l/NTKit.svg?style=flat)](http://cocoapods.org/pods/NTKit)
-[![Platform](https://img.shields.io/cocoapods/p/NTKit.svg?style=flat)](http://cocoapods.org/pods/NTKit)
+This is a place of demos where I learn new technology stacks. Previously, I carried out the code experiments in the repo [NTSnippet](https://github.com/trinhngocthuyen/NTSnippets) but it seems not reusable. Therefore, in this repo I collect them (useful snippets, solutions...) into different modules (or pods) which can be integrated via CocoaPods.
 
 ## Example
 
@@ -11,14 +8,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+The current code base targets Swift3, XCode8.3
+
 ## Installation
 
-NTKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "NTKit"
-```
+The pods are not yet available through CocoaPods.
 
 ## Author
 
