@@ -8,10 +8,10 @@
 
 import Foundation
 
-public func delay(_ seconds: Double, queue: DispatchQueue = .main, execute: @escaping (Void) -> Void) {
+public func delay(_ seconds: Double, queue: DispatchQueue = .main, execute: @escaping () -> Void) {
     queue.asyncAfter(deadline: DispatchTime.now() + seconds, execute: execute)
 }
 
-public func dispatchMain(_ execute: @escaping (Void) -> Void) {
+public func dispatchMain(_ execute: @escaping () -> Void) {
     DispatchQueue.main.async(execute: execute)
 }

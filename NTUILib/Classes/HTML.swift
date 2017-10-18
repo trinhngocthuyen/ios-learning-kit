@@ -12,9 +12,10 @@ extension String {
     public func richTextHTML() -> NSAttributedString? {
         guard let data = data(using: .unicode, allowLossyConversion: true) else { return nil }
         do {
+            
             return try NSAttributedString(
                 data: data,
-                options: [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType],
+                options: [.documentType: NSAttributedString.DocumentType.html],
                 documentAttributes: nil
             )
         } catch {

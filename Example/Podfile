@@ -20,3 +20,17 @@ target 'HackerNews_Demo' do
   	pod 'Nimble', '~> 5.1.1'
   end
 end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            if target.name == "ReactiveCocoa" then
+              # There is a compilation error with ReactiveCocoa. This is a workaround
+              # https://github.com/ReactiveCocoa/ReactiveCocoa/issues/3519  
+              config.build_settings['SWIFT_VERSION'] = '3.2'
+            else
+              config.build_settings['SWIFT_VERSION'] = '4.0'
+            end
+        end
+    end
+end

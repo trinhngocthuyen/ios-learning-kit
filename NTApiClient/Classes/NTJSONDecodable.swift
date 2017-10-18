@@ -19,7 +19,7 @@ public protocol NTJSONDecodable {
 }
 
 extension NTJSONDecodable {
-    static func from(json: JSON) -> Self? {
+    public static func from(json: JSON) -> Self? {
         do {
             return try Self(json: json)
         } catch {

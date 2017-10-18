@@ -11,16 +11,16 @@ import Foundation
 typealias HNResourceID = Int
 
 final class HNStory: Object, HNLinkedResource {
-    dynamic var id: HNResourceID = 0
-    dynamic var title: String = ""
-    dynamic var urlString: String = ""
-    dynamic var author: String = ""
-    dynamic var createdAt: Date = Date()
-    dynamic var score: Int = 0
-    dynamic var nNestedComments: Int = 0
-    dynamic fileprivate var _kidIdsString: String = ""
+    @objc dynamic var id: HNResourceID = 0
+    @objc dynamic var title: String = ""
+    @objc dynamic var urlString: String = ""
+    @objc dynamic var author: String = ""
+    @objc dynamic var createdAt: Date = Date()
+    @objc dynamic var score: Int = 0
+    @objc dynamic var nNestedComments: Int = 0
+    @objc dynamic fileprivate var _kidIdsString: String = ""
     
-    dynamic var kidIds: [HNResourceID] {
+    @objc dynamic var kidIds: [HNResourceID] {
         get  {  return _kidIdsString.components(separatedBy: ",").flatMap { HNResourceID($0) } }
         set {   _kidIdsString = kidIds.map { String($0) }.joined(separator: ",") }
     }

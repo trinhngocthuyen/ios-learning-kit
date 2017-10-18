@@ -9,11 +9,11 @@
 import Foundation
 
 final class HNComment: Object, HNLinkedResource {
-    dynamic var id: HNResourceID = 0
-    dynamic var author: String = ""
-    dynamic var content: String = ""
-    dynamic var createdAt: Date = Date()
-    dynamic fileprivate var _kidIdsString: String = ""
+    @objc dynamic var id: HNResourceID = 0
+    @objc dynamic var author: String = ""
+    @objc dynamic var content: String = ""
+    @objc dynamic var createdAt: Date = Date()
+    @objc dynamic fileprivate var _kidIdsString: String = ""
     
     var kidIds: [HNResourceID] {
         get  {  return _kidIdsString.components(separatedBy: ",").flatMap { HNResourceID($0) } }
